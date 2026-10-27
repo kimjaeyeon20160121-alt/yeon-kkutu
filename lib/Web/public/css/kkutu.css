@@ -1,0 +1,16 @@
+/* 연끄투 - 방 만들기 버튼 */
+#NewRoom {
+    background: linear-gradient(135deg, #3278DE, #1648A7);
+    color: white;
+    border: 1px solid #568DE0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(20, 60, 140, 0.3);
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+#NewRoom:hover {
+    background: linear-gradient(135deg, #4892F2, #245FC4);
+    box-shadow: 0 6px 15px rgba(20, 60, 140, 0.4);
+    transform: translateY(-2px);
+}
